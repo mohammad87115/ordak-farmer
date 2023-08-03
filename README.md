@@ -1,4 +1,4 @@
-# Ordak farmer
+ordakcomman# Ordak farmer
 a discord selfbot that use ordak persion memer bot cmds
 # How to add tokens?
 add your tokens in a file called tokens.txt
@@ -29,6 +29,35 @@ npm install
 
 node .
 ```
+# Run it in Moblile app?
+- 1 Install termux app from Google play store or [myket](https://myket.ir)
+- 2 After installation run the termux app and use this commands one by one:
+```
+apt update && apt upgrade -y
 
+package install git
+
+package install nodejs
+
+git clone https://github.com/mohammad87115/ordak-farmer
+
+cd ordak-farmer
+
+npm i 
+```
+After Installing Node Modules You soulf fill `tokens.txt` and `config.json` by following this commands: 
+```
+nano tokens.txt
+
+nano config.json
+```
+
+For saving the file you should Use ```CTRL + X``` , press `y` and enter for one time
+
+## running the project
+
+After all this commands , U can run your project with the command `node index.js`
+## did your termux all closed?
+No problem , open the ordak farmer project by using command `cd ordak-farmer` and use `node index.js`
 # Contributers
 [M. logique](https://github.com/m-logique)
