@@ -1,4 +1,4 @@
-ordakcomman# Ordak farmer
+# Ordak farmer
 a discord selfbot that use ordak persion memer bot cmds
 # How to add tokens?
 add your tokens in a file called tokens.txt
@@ -45,11 +45,22 @@ cd ordak-farmer
 
 npm i 
 ```
-After Installing Node Modules You should fill `tokens.txt` and `config.json` by following this commands: 
+After Installing Node Modules You should fill `tokens.txt` and `.env` by following this commands: 
 ```
 nano tokens.txt
 
-nano config.json
+nano .env
+```
+
+your .env file that should look like this
+```
+channel="" # channel id for running cmds
+
+webhook="" # webhook url
+
+prefix="" # message commands prefix (run <arg> & pay <owner or id>)
+
+ownerid="" # selfbot owner id
 ```
 
 For saving the file you should Use ```CTRL + X``` , press `y` and enter for one time
@@ -57,6 +68,7 @@ For saving the file you should Use ```CTRL + X``` , press `y` and enter for one 
 ## running the project
 
 After all this commands , U can run your project with the command `node index.js`
+
 ## did your termux app closed?
 No problem , open the ordak farmer project by using command `cd ordak-farmer` and use `node index.js`
 
