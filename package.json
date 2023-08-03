@@ -1,0 +1,18 @@
+{
+  "name": "ordak-farmer",
+  "version": "2.0.0",
+  "description": "a sexy selfbot for farming ordak chog",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "install": "npm install"
+  },
+  "keywords": ["selfbot", "ordak"],
+  "author": "m87115 & m.logique",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "discord.js-selfbot-v13": "^2.14.9",
+    "dotenv": "^16.3.1"
+  }
+}
