@@ -7,7 +7,7 @@ add your tokens in a file called tokens.txt
 you need to make a repl and go to secrets tab then
 add the secrets on the example.env and another secret called tokens and add your token in it then delete tokens.txt and
 then run the selfbot
-**you can only run with 1 token i replit**
+**you can only run with 1 token in replit,**
 **replit is so slow for running this code and its not recommended**
 ## Those who are not using replit
 if your hosting provider is not giving away your bot files you can simply add your tokens to tokens.txt and skip the tokens part on env file
