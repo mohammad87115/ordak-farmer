@@ -30,4 +30,4 @@ node .
 ```
 
 # Contributers
-https://github.com/m-logique
+[M. logique](https://github.com/m-logique)
