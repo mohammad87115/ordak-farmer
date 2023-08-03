@@ -45,7 +45,7 @@ cd ordak-farmer
 
 npm i 
 ```
-After Installing Node Modules You soulf fill `tokens.txt` and `config.json` by following this commands: 
+After Installing Node Modules You should fill `tokens.txt` and `config.json` by following this commands: 
 ```
 nano tokens.txt
 
@@ -57,7 +57,8 @@ For saving the file you should Use ```CTRL + X``` , press `y` and enter for one 
 ## running the project
 
 After all this commands , U can run your project with the command `node index.js`
-## did your termux all closed?
+## did your termux app closed?
 No problem , open the ordak farmer project by using command `cd ordak-farmer` and use `node index.js`
+
 # Contributers
 [M. logique](https://github.com/m-logique)
