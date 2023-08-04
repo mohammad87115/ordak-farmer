@@ -72,7 +72,7 @@ After all this commands , U can run your project with the command `node index.js
 ## did your termux app closed?
 No problem , open the ordak farmer project by using command `cd ordak-farmer` and use `node index.js`
 
-# termux tutorial video
+### termux tutorial video
 
 <video scr="https://media.discordapp.net/attachments/966322288289009684/1136776743122911242/inshot_20230804_010222721_8nq0.mp4">
 
