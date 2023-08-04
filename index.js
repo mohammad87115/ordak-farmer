@@ -223,3 +223,14 @@ async function run(token) {
     })
     client.login(token)
 }
+
+
+const express = require("express")
+const app = express()
+const port = 3000
+app.get('/', (req, res) => {
+  res.send('<h1>Im running</h1>')
+})
+app.listen(port, () => {
+  log(`Uptimer page is listening on port ${port}`)
+})
