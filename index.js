@@ -69,7 +69,20 @@ console.log("___________________________________________________________________
 
 if (fs.existsSync("tokens.txt")) {
     fs.readFile('tokens.txt', function(err, data) {
-        if (!data.toString()) return warn("tokens.txt is empty, reading tokens from .env file ")
+        if (!data.toString()) { 
+            warn("tokens.txt is empty, reading tokens from .env file ")
+            if (!process.env.tokens) return warn("no tokens in env")
+                try {
+                const envarray = process.env.tokens.split("\n")
+                for (const item of envarray) {
+                    run(item)
+                }
+                log("Finished reading .env")
+            } catch {
+                warn("No tokens in .env file")
+            }
+            return;
+        }
         try {
             log("started reading tokens.txt")
             const fileStream = fs.createReadStream('tokens.txt');
