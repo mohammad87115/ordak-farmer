@@ -9,6 +9,7 @@ add your tokens in a file called tokens.txt
 add the secrets on the example.env and another secret called tokens and add your token in it then delete tokens.txt and
 then run the selfbot
 </p>
+
 **you can only run with 1 token in replit,**
 **replit is so slow for running this code and its not recommended**
 ## Those who are not using replit
