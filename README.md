@@ -30,7 +30,7 @@ npm install
 node .
 ```
 # Run it in Moblile app?
-- 1 Install termux app from Google play store or [myket](https://myket.ir)
+- 1 Install termux app from F droid or [myket](https://myket.ir)
 - 2 After installation run the termux app and use this commands one by one:
 ```
 apt update && apt upgrade -y
@@ -72,8 +72,12 @@ After all this commands , U can run your project with the command `node index.js
 ## did your termux app closed?
 No problem , open the ordak farmer project by using command `cd ordak-farmer` and use `node index.js`
 
+# termux tutorial video
+
+<video scr="https://media.discordapp.net/attachments/966322288289009684/1136776743122911242/inshot_20230804_010222721_8nq0.mp4">
+
 # Contributers
 [M. logique](https://github.com/m-logique)
 
-# give me قهوه
+# give me Cofe
 <a href="https://www.coffeebede.com/m.logique"><img class="img-fluid" src="https://coffeebede.ir/DashboardTemplateV2/app-assets/images/banner/default-yellow.svg" /></a>
