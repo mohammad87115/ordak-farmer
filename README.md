@@ -4,7 +4,8 @@ a discord selfbot that use ordak persion memer bot cmds
 add your tokens in a file called tokens.txt
 # How to setup?
 ## Using replit
-you need to make a repl and go to secrets tab then
+[![Run on Repl.it](https://replit.com/badge/github/mohammad87115/ordak-farmer)](https://replit.com/@mohammadmoham39/ordak-farmer-v2)
+Clone my repl with this button and go to secrets tab, then
 add the secrets on the example.env and another secret called tokens and add your token in it then delete tokens.txt and
 then run the selfbot
 **you can only run with 1 token in replit,**
