@@ -74,7 +74,8 @@ No problem , open the ordak farmer project by using command `cd ordak-farmer` an
 
 ### termux tutorial video
 
-<video scr="https://media.discordapp.net/attachments/966322288289009684/1136776743122911242/inshot_20230804_010222721_8nq0.mp4">
+[Watch the video](https://media.discordapp.net/attachments/966322288289009684/1136776743122911242/inshot_20230804_010222721_8nq0.mp4
+)
 
 # Contributers
 [M. logique](https://github.com/m-logique)
