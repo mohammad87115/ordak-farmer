@@ -117,6 +117,16 @@ if (fs.existsSync("tokens.txt")) {
 
 if (!fs.existsSync("tokens.txt")) {
     warn("tokens.txt is not available, reading tokens from .env file ")
+    if (!process.env.tokens) return warn("no tokens in env")
+                try {
+                const envarray = process.env.tokens.split("\n")
+                for (const item of envarray) {
+                    run(item)
+                }
+                log("Finished reading .env")
+            } catch {
+                warn("No tokens in .env file")
+            }
 }
 
 async function run(token) {
