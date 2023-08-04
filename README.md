@@ -29,6 +29,10 @@ npm install
 
 node .
 ```
+### daki.cc hosting tutorial video
+
+[Click to watch the video](https://cdn.discordapp.com/attachments/1092405538035343452/1136986284745834607/Ordak_Farmer.mp4)
+
 # Run it in Moblile app?
 - 1 Install termux app from F droid or [myket](https://myket.ir)
 - 2 After installation run the termux app and use this commands one by one:
